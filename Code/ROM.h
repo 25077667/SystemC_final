@@ -22,7 +22,7 @@ SC_MODULE( ROM ) {
 		
 		cout << "Loading weights and input data...\n";
 		// vvvvv change the path of input file here vvvvv
-		win.open( "LeNet_All_b.txt" );
+		win.open( "/home/systemc_2/final_proj/Code/LeNet_All_b.txt" );
 		for ( int i = 0 ; i < 45210 ; i++ ) {
 			win >> t_b >> t_c >> t_d;
 			#ifdef fixed_DATA_TYPE
