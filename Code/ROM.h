@@ -30,8 +30,10 @@ SC_MODULE(ROM)
             READ_DATA_TYPE temp;
             temp = t_b.c_str();
             mem[i] = temp.to_int();
+            //cout << "mem[" << i << "] = " << mem[i] << endl;
 #else
             mem[i] = t_d;
+            //cout << "mem[" << i << "] = " << mem[i] << endl;
 #endif
         }
         win.close();

@@ -1,5 +1,5 @@
 Debug/__up1__/Monitor.o Debug/__up1__/Monitor.d: ../Monitor.cpp \
- ../Monitor.h \
+ ../Monitor.h ../define.h \
  /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/systemc.h \
  /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/systemc \
  /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/snps_vp_sc_version.h \
@@ -148,10 +148,11 @@ Debug/__up1__/Monitor.o Debug/__up1__/Monitor.d: ../Monitor.cpp \
  /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/sc_foreign_module.h \
  /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/sc_hdl_module.h \
  /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/sc_foreign_module.h \
- /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/cwr_hdl_extern.h \
- ../define.h
+ /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/cwr_hdl_extern.h
 
 ../Monitor.h:
+
+../define.h:
 
 /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/systemc.h:
 
@@ -450,5 +451,3 @@ Debug/__up1__/Monitor.o Debug/__up1__/Monitor.d: ../Monitor.cpp \
 /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/sc_foreign_module.h:
 
 /usr/cad/synopsys/pa_virtualizer/cur/SLS/linux/common/include/sysc/cwrcosim/cwr_hdl_extern.h:
-
-../define.h:
